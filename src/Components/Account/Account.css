@@ -1,0 +1,65 @@
+.main_container {
+  text-align: center;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/background.png);
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.outline {
+  margin-left: 12.5%;
+  width: 75%;
+  height: 75%;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px rgba(0, 0, 0, 0.6);
+  border-radius: 30px;
+}
+
+.textBoxContainer {
+  height: 50px;
+  width: 60%;
+  padding-top: 3%;
+  padding-left: 20%;
+  justify-content: center;
+}
+
+.textBox {
+  width: 95%;
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  border-radius: 15px;
+  border-color: red;
+}
+
+.doubleTextBox {
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  border-radius: 15px;
+  border-color: red;
+}
+
+.buttonContainer {
+  padding-top: 3%;
+}
+
+.button {
+  color: white;
+  background-color: rgb(212, 29, 29);
+  border: 1px solid red;
+  border-radius: 10px;
+  width: 300px;
+  height: 50px;
+  font-size: 16px;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}

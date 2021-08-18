@@ -1,12 +1,14 @@
+import './index.css';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+
+import ModifyAccount from './Components/ModifyAccount/ModifyAccount';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ModifyAccount />
   </React.StrictMode>,
   document.getElementById('root')
 );
